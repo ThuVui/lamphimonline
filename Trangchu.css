@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:rgb(30,29,29);
+    padding: 10px;
+}
+.menu ul{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.menu li{
+    color: white;
+    margin: auto;
+    list-style-type: none;
+}
+.menu img{
+    width: 200px;
+    height: auto;
+}
+.menu form input{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(30,29,29);
+    color: white;
+    border: 1px solid white;
+}
+.menu #search{
+    margin-left: 70px;
+}
+.menu .sub-menu-1{
+    position: absolute;
+    display: none;
+    top: auto;
+    left: 240px;
+    padding: 15px;
+}
+.menu li:hover .sub-menu-1{
+    background-color: black;
+    border-radius: 3px;
+    padding: 10px;
+    display: block;
+}
+.menu .sub-menu-2{
+    position: absolute;
+    display: none;
+    top: auto;
+    left: 350px;
+    padding: 15px;
+}
+.menu li:hover .sub-menu-2{
+    background-color: black;
+    border-radius: 3px;
+    padding: 10px;
+    display: block;
+}
+.sub-menu-1 li:hover{
+    background-color: white;
+    color: red;
+    padding: 5px;
+}
+.sub-menu-2 li:hover{
+    background-color: white;
+    color: red;
+    padding: 5px;
+}
+main{
+    background-color: rgb(55, 67,78);
+}
+section{
+    margin: 0 200px 50px, 200px;
+    background-color: rgb(30,29,29);
+    border-radius: 3px;
+}
